@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         val pref = getSharedPreferences("account", MODE_PRIVATE)
         val profile = pref.getString("profile", "")
         val name = pref.getString("name", "")
-        binding!!.tvName.text = "안녕하세요. $name 님"
+        binding!!.tvName.text = "Hi. $name"
         Glide.with(this).load(profile).error(R.drawable.profle).into(binding!!.civProfile)
     }
 

@@ -18,19 +18,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"/>
 
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="당신의 일정을 관리하세요"
-        android:fontFamily="@font/dalseo"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/tv"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:src="@drawable/icon_rabbit"
-        android:layout_below="@id/tv2"
+        android:layout_below="@id/tv"
         android:layout_marginTop="20dp"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -48,7 +40,7 @@
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="당신의 이름을 입력하세요"
+        android:hint="Type your name here"
         android:fontFamily="@font/dalseo"
         android:textSize="12sp"
         android:background="@drawable/bg_et_name"
