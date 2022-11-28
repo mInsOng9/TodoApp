@@ -20,14 +20,14 @@ class TodoActivity : AppCompatActivity() {
     var category:Int=0 //카테고리 구분번호
     var categoryTitle:Array<String> = arrayOf("ALL", "WORK", "STUDY", "HEALTH", "HOBBY", "MEETING", "ETC", "DONE")
     var slogans:Array<String> = arrayOf(
-        "사람은 선택할 수 있고 바꿀 수 있는 힘이 있습니다.",
-        "오늘일을 내일로 미루지 마세요",
-        "하루하루 전문가로 발전하는 당신을 응원합니다.",
-        "병 만나기는 쉬워도 병 고치기는 어렵습니다.",
-        "행복은 멀이있지 않아요. 좋아하는 일을 하세요.",
-        "약속은 절대 잊지 말아요.",
-        "메모하는 습관이 미래를 바꿉니다.",
-        "성공은 수고의 대가라는 것을 기억하세요."
+        "The way we spend our time defines who we are.",
+        "The only joy in the world is to begin.",
+        "Life is what happens when you're busy making other plans.",
+        "The way I see it, if you want the rainbow, you gotta put up with the rain.",
+        "Not how long, but how well you have lived is the main thing.",
+        "The unexamined life is not worth living",
+        "Money and success don’t change people; they merely amplify what is already there.",
+        "You only live once, but if you do it right, once is enough."
     )
 
     // 할일 데이터들을 저장하는 리스트

@@ -9,7 +9,8 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="8dp">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -51,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:fabSize="mini"
-        android:backgroundTint="#038CF4"
+        android:backgroundTint="#57B6FF"
         app:layout_anchor="@id/appbar_layout"
         app:layout_anchorGravity="bottom|right"
         android:layout_margin="16dp"
@@ -62,16 +63,16 @@
         android:id="@+id/bs"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="@drawable/bg_bs"
+        android:background="#DDF0FF"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
-        app:behavior_peekHeight="8dp"
+        app:behavior_peekHeight="16dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:elevation="16dp">
         <View
             android:layout_width="108dp"
             android:layout_height="4dp"
-            android:background="#038CF4"
+            android:background="#57B6FF"
             android:layout_centerHorizontal="true"
             android:layout_margin="8dp" />
 
