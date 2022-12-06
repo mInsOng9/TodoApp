@@ -21,7 +21,7 @@ public class EditActivity extends AppCompatActivity {
     int category; //카테고리 구분번호
     String[] categoryTitle= new String[]{"ALL","WORK","STUDY","HEALTH","HOBBY","MEETING","ETC","DONE"};
 
-    String date="2022년 09월 30일";
+    String date="2022-09-30";
 
     BottomSheetDialog bottomSheetDialog= null;
 
@@ -33,12 +33,12 @@ public class EditActivity extends AppCompatActivity {
 
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("할일 추가");
+        getSupportActionBar().setTitle("Add TODO");
 
         category= getIntent().getIntExtra("category", 0);
         binding.tvCategory.setText(categoryTitle[category]);
 
-        date= new SimpleDateFormat("yyyy년 MM월 dd일").format(new Date());
+        date= new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         binding.tvDate.setText(date);
 
         binding.tvDate.setOnClickListener(v-> showBottomSheetDialogCalendar() );
@@ -99,7 +99,7 @@ public class EditActivity extends AppCompatActivity {
             //달력에서 선택한 날짜로 Calendar 객체 생성
             GregorianCalendar calendar= new GregorianCalendar(year,month,day);
 
-            date= new SimpleDateFormat("yyyy년 MM월 dd일").format(calendar.getTime());
+            date= new SimpleDateFormat("yyyy-MM-dd").format(calendar.getTime());
             binding.tvDate.setText(date);
 
             bottomSheetDialog.dismiss(); //다이얼로그 닫기

@@ -33,7 +33,7 @@
             android:id="@+id/todo_item_tv_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2022년 10월 28일"
+            android:text="2022-10-28"
             android:textSize="10sp"
             android:fontFamily="@font/dalseo"
             android:layout_below="@id/todo_item_tv_title"

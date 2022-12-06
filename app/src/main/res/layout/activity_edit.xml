@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="일정 제목"
+                android:text="TO DO"
                 android:textColor="@color/black"
                 android:fontFamily="@font/dalseo"
                 android:padding="4dp"
@@ -43,7 +43,7 @@
                 android:id="@+id/et_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="일정 제목을 입력하세요"
+                android:hint="what to do"
                 android:textSize="12sp"
                 android:padding="18dp"
                 android:inputType="text"/>
@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="완료예정일"
+                android:text="DUE DATE"
                 android:textColor="@color/black"
                 android:fontFamily="@font/dalseo"
                 android:padding="4dp"
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:gravity="center"
-                android:text="2022년 09월 30일"
+                android:text="2022-09-30"
                 android:textSize="13sp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/dalseo"
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="카테고리 "
+                android:text="CATEGORY"
                 android:textColor="@color/black"
                 android:fontFamily="@font/dalseo"
                 android:padding="4dp"
@@ -97,10 +97,9 @@
                 android:layout_margin="2dp"/>
 
             <TextView
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="노트"
+                android:text="NOTE"
                 android:textColor="@color/black"
                 android:fontFamily="@font/dalseo"
                 android:padding="4dp"
@@ -111,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_rectangle"
-                android:hint="세부내용"
+                android:hint="notes"
                 android:textSize="12sp"
                 android:inputType="textMultiLine"
                 android:layout_marginLeft="2dp"
@@ -124,7 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/black"
-                android:text="작성완료"/>
+                android:text="OK"/>
 
 
         </LinearLayout>

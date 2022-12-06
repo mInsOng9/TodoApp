@@ -49,7 +49,7 @@ class TodoActivity : AppCompatActivity() {
         //카테고리 종류에 따라 슬로건 글씨를 표시
         binding.tvSlogan.text= slogans[category]
         //오늘의 날짜 표시
-        binding.tvToday.text= SimpleDateFormat("yyyy년 MM월 dd일").format(Date())
+        binding.tvToday.text= SimpleDateFormat("yyyy-MM-dd").format(Date())
 
         // 새로운 할일 작성하는 액티비티로 전환
         binding.fabAddTodo.setOnClickListener { v: View? ->
